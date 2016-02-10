@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_from_record_weight_actiyty"
+    tools:context="kakina.woranas.myweigh.FromRecordWeightActiyty"
+    android:background="@mipmap/wallpapers_a_03">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="false">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Curent Weight"
+            android:id="@+id/textView3"
+            android:textSize="@dimen/h1"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/abc_primary_text_material_dark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="000.00"
+            android:id="@+id/textView4"
+            android:textSize="110dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/abc_primary_text_material_dark" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:onClick="clickUpdate"
+            android:id="@+id/button2"
+            android:layout_weight="1"
+            android:layout_gravity="left" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="History"
+            android:id="@+id/button3"
+            android:layout_weight="1"
+            android:layout_gravity="left" />
+    </LinearLayout>
+</RelativeLayout>
