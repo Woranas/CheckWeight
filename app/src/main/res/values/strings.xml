@@ -2,7 +2,7 @@
     <string name="app_name">My Weigh</string>
     <string name="regis">ลงทะเบียนใช้งาน</string>
     <string name="have_space">กรุณากรอกทุกช่อง</string>
-    <string name="Success_regis">สมัครเสร็จสิ้น</string>
+    <string name="Success_regisgit">สมัครเสร็จสิ้น</string>
     <stribng name="action_settings">Settings</stribng>
     <string name="title_activity_from_record_weight_actiyty">FromRecordWeightActiyty</string>
 </resources>
